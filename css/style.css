@@ -24,9 +24,26 @@ body a{
   height: auto;
   display: block;
   margin: 0 auto;
-  
 }
 
+.col-md-3{
+  font-size: 30px;
+  color: #1b768d;
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.slider{
+   width: 900px;
+  height: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .ab-rgt{
   font-size: 58px;
 }
