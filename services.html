@@ -1,0 +1,117 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Obras/Mask</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Quamax Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+       <script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+	
+  </script>
+</head>
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/masklogo.jpeg" class="img-responsive" alt="" /></a>
+		</div>
+		<div class="head-nav">
+			<div class="container">
+				<span class="menu">Menu</span>
+					<ul class="cl-effect-7">
+						<li><a href="plans.html">Membresia</a></li>
+						<li><a href="about.html">Yo</a></li>
+						<li><a href="services.html">Obras</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+							<div class="clearfix"> </div>
+					</ul>
+			</div>
+		</div>
+		<!-- script-for-nav -->
+			<script>
+				$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+				// Animation complete.
+				});
+				});
+			</script>
+		<!-- script-for-nav -->
+	</div>
+<!-- header -->
+
+header>
+
+    </header>
+
+    <main class="obras">
+
+        <section id="img1" class="tarjetas">
+            <img src="images/IM1.jpg" alt="Bean">
+            <h2>Bean</h2>
+            <p>Una princesa rebelde que no quiere seguir las reglas y siempre busca aventuras</p>
+            <button>Elegir</button>
+        </section>
+
+         <section id="img2" class="tarjetas">
+            <img src="images/IM2.jpg" alt="Elfo">
+            <h2>Elfo</h2>
+            <p>Un elfo curioso y amable que quiere conocer el mundo fuera de su hogar</p>
+            <button>Elegir</button>
+        </section>
+
+         <section id="img3" class="tarjetas">
+            <img src="images/IM2.jpg" alt="Lucy">
+            <h2>Lucy</h2>
+            <p>Un pequeño demonio travieso que disfruta del caos pero quiere a sus amigos</p>
+            <button>Elegir</button>
+        </section>
+
+    </main>
+
+</body>
+</html>
