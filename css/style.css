@@ -56,6 +56,38 @@ body a{
     background: #f3f3f3;
 }
 
+
+.desc{
+  font-size: 38px;
+  font-style: initial;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.price {
+    font-size: 33px;
+    font-weight: bold;
+    color: #00aaff;
+    margin: 15px 0;
+    margin-top: 4px;   
+    margin-bottom: 10px;
+}
+
+.plans_grid {
+    margin-top: 50px;
+}
+
+
+.project_box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+
+
 .tarjetas {
     background: white;
     width: 280px;
@@ -122,7 +154,7 @@ span.menu {
 }
 
 .col-md-7{
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .head-nav ul li a:hover, .head-nav ul li.active a {
