@@ -48,6 +48,42 @@ body a{
   font-size: 58px;
 }
 
+.obras {
+    display: flex;
+    gap: 20px;                 
+    justify-content: center;   
+    padding: 30px;
+    background: #f3f3f3;
+}
+
+.tarjetas {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;     
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    text-align: center;        
+}
+
+.tarjetas img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tarjetas button {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.tarjetas button:hover {
+    background: #217dbb;
+}
 span.menu {
   display: none;
 }
@@ -79,8 +115,16 @@ span.menu {
 }
 .head-nav ul li {
 	display: inline-block;
-	
 }
+
+.ab-rgt{
+  font-size: 10px;
+}
+
+.col-md-7{
+  font-size: 16px;
+}
+
 .head-nav ul li a:hover, .head-nav ul li.active a {
   color: #fff;
   background:#63b8bd;
